@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="quizapp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>QUIZZER</title>
+  </head>
+  <body>
+    <div class="popup" id="popup"></div>
+    <div class="container">
+      <div class="title">
+        <h2 class="heading">QUIZZER</h2>
+        <span class="select-cat"> select category </span>
+      </div>
+      <div class="four-cat">
+        <div class="box">Programming</div>
+        <div class="box">webdevelopement</div>
+        <div class="box">computernetworks</div>
+        <div class="box">machinelearning</div>
+      </div>
+      <hr class="ruler" />
+
+      <div class="total-questions">
+        <p class="select-ques">select number of questions</p>
+        <div class="ques-box">
+          <div class="smolbox">3</div>
+          <div class="smolbox">5</div>
+          <div class="smolbox">10</div>
+          <div class="smolbox">15</div>
+          <div class="smolbox">20</div>
+        </div>
+      </div>
+      <button class="start"><p class="text">Start Quiz</p></button>
+    </div>
+    <div class="container2">
+        <div class="topsec">
+            <div class="left"><h2 class="heading">QUIZZER</h2></div>
+            <div class="right"><div class="timerdiv">⏱️<span class="timer">15</span></div></div>
+
+
+        </div>
+        <div class="questionarea">
+            <div class="categorydiv">
+                ✅ single
+            </div>
+            <div class="question">
+                Which algorithm uses greedy approach?
+
+            </div>
+            <div class="myanswer">
+                <div class="singleoptions">
+                    <div class="soption">html</div>
+                    <div class="soption">html</div>
+                    <div class="soption">html</div>
+                    <div class="soption">html </div>
+                </div>
+                <div class="multioptions">
+                    <div class="moption">html</div>
+                    <div class="moption">html</div>
+                    <div class="moption">html</div>
+                    <div class="moption">html </div>
+                </div>
+
+                <div class="fillarea">
+  <input type="text" class="fillinput" placeholder="Type your answer here">
+</div>
+
+               <button class="submit"> Check </button>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+  <div class="result-card">
+    <h2 class="result-title">Quiz Result</h2>
+
+    <div class="percentage-circle">
+      <span class="percent-text">0%</span>
+    </div>
+
+    <div class="stats">
+      <p>Score: <span class="final-score">0</span></p>
+      <p>Total Questions: <span class="total-score">0</span></p>
+    </div>
+
+    <button class="reattempt-btn">Reattempt Quiz</button>
+  </div>
+</div>
+      
+    </div>
+  </body>
+  <script src="quizapp.js"></script>
+</html>
